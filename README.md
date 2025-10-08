@@ -1,6 +1,6 @@
 # 🎬 Movie Recommender
 
-A simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
+I needed an application that could **recommend new movies** for me to watch, so I created this simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
 It suggests top-rated movies based on your selected genre and displays their posters — all in a clean, modern interface.
 
 ![Screenshot](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/preview.png)
@@ -38,5 +38,4 @@ The app loads a local dataset of movies and their genres, then:
 
 Clone the repository:
 ```bash
-git clone https://github.com/mirconegri/MovieRecommender.git
-cd MovieRecommender
+git clone https://github.com/mirconegri/MovieRecomme
