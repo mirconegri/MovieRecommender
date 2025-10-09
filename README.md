@@ -74,8 +74,18 @@ Then, run the app:
 ```bash
 python3 main.py
 ```
+
+---
+
 ## ❤️ Credits
 
 This app uses data from The Movie Database (TMDb)
  but is not affiliated with TMDb.
 Developed with passion by Mirco Negri.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
