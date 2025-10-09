@@ -1,9 +1,26 @@
 # 🎬 Movie Recommender
 
-I needed an application that could **recommend new movies** for me to watch, so I created this simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
+I needed an application that could **recommend new movies** for me to watch,  
+so I created this simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
 It suggests top-rated movies based on your selected genre and displays their posters — all in a clean, modern interface.
 
-![Screenshot](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/preview.png)
+---
+
+## 📸 Preview
+
+Here are some screenshots of the app in action:
+
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot1.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot2.png) |
+|:--:|:--:|
+| **Main Interface** | **Genre Selection & Results** |
+
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot3.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot4.png) |
+|:--:|:--:|
+| **Scrollable Movie Grid** | **Hover & Poster View** |
+
+| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot5.png) |
+|:--:|
+| **Dark Netflix-Inspired UI** |
 
 ---
 
@@ -12,16 +29,18 @@ It suggests top-rated movies based on your selected genre and displays their pos
 - 🎞️ Recommend **top 20 movies** per genre  
 - 🖼️ Display **movie posters** inside the app  
 - 💡 Clean, dark-themed interface inspired by Netflix  
-- ⚡ Lightweight and **easy to run** — no database or API required  
+- ⚡ Lightweight and **easy to run** — connects directly to the TMDb API  
 
 ---
 
 ## 🧠 How It Works
 
-The app loads a local dataset of movies and their genres, then:
-1. Lets you choose a genre from a dropdown.
-2. Selects and displays the **top 20 recommended movies**.
-3. Shows posters (if available) in a scrollable frame.
+The app connects to the **TMDb API** to retrieve the most popular, top-rated movies by genre:
+
+1. Select a genre from the dropdown menu.  
+2. The app displays the **top 20 recommended movies** for that genre.  
+3. Each poster is clickable — double-click to open the movie’s page on TMDb.  
+4. Press **“I’ve already seen these movies”** to load more suggestions.
 
 ---
 
@@ -30,12 +49,33 @@ The app loads a local dataset of movies and their genres, then:
 - **Python 3**
 - **Tkinter** – GUI framework  
 - **Pillow (PIL)** – image handling  
-- **OS / Random / JSON** – for file and data management  
+- **Requests** – API requests  
+- **TMDb API** – movie data source  
 
 ---
 
 ## ⚙️ Installation
 
 Clone the repository:
+
 ```bash
-git clone https://github.com/mirconegri/MovieRecomme
+git clone https://github.com/mirconegri/MovieRecommender.git
+cd MovieRecommender
+```
+
+Create a virtual environment and install dependencies:
+```bash
+python3 -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+pip install -r requirements.txt
+```
+Then, run the app:
+```bash
+python3 main.py
+```
+## ❤️ Credits
+
+This app uses data from The Movie Database (TMDb)
+ but is not affiliated with TMDb.
+Developed with passion by Mirco Negri.
