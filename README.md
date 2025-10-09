@@ -14,7 +14,7 @@ Here are some screenshots of the app in action:
 |:--:|:--:|
 | **Main Interface** | **Genre Selection & Results** |
 
-| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot3.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot4.png) |
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot3.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/main/screenshot4.png) |
 |:--:|:--:|
 | **Scrollable Movie Grid** | **Hover & Poster View** |
 
