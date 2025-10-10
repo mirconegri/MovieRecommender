@@ -10,7 +10,7 @@ It suggests top-rated movies based on your selected genre and displays their pos
 
 Here are some screenshots of the app in action:
 
-| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) |
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot1.png) |
 |:--:|:--:|
 | **Main Interface** | **Genre Selection & Results** |
 
