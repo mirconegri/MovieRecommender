@@ -10,15 +10,15 @@ It suggests top-rated movies based on your selected genre and displays their pos
 
 Here are some screenshots of the app in action:
 
-| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot2.png) |
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) |
 |:--:|:--:|
 | **Main Interface** | **Genre Selection & Results** |
 
-| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot3.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/main/screenshot4.png) |
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot3.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot5.png) |
 |:--:|:--:|
 | **Scrollable Movie Grid** | **Hover & Poster View** |
 
-| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/screenshot5.png) |
+| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot4.png) |
 |:--:|
 | **Dark Netflix-Inspired UI** |
 
