@@ -26,7 +26,7 @@ Here are some screenshots of the app in action:
 
 ## 🚀 Features
 
-- 🎞️ Recommend **top 20 movies** per genre  
+- 🎞️ Recommend **top 30 movies** per genre  
 - 🖼️ Display **movie posters** inside the app  
 - 💡 Clean, dark-themed interface inspired by Netflix  
 - ⚡ Lightweight and **easy to run** — connects directly to the TMDb API  
@@ -38,7 +38,7 @@ Here are some screenshots of the app in action:
 The app connects to the **TMDb API** to retrieve the most popular, top-rated movies by genre:
 
 1. Select a genre from the dropdown menu.  
-2. The app displays the **top 20 recommended movies** for that genre.  
+2. The app displays the **top 30 recommended movies** for that genre.  
 3. Each poster is clickable — double-click to open the movie’s page on TMDb.  
 4. Press **“I’ve already seen these movies”** to load more suggestions.
 
