@@ -30,3 +30,4 @@ jobs:
       - name: Run Movie Recommender
         run: |
           if [ -f main.py ]; then python main.py; elif [ -f app.py ]; then python app.py; else echo "No main script found"; fi
+
