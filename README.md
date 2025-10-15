@@ -58,20 +58,20 @@ The app connects to the **TMDb API** to retrieve the most popular, top-rated mov
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/mirconegri/MovieRecommender.git
 cd MovieRecommender
 ```
 
 Create a virtual environment and install dependencies:
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 ```
 Then, run the app:
-```bash
+```
 python3 main.py
 ```
 
