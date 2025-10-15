@@ -8,7 +8,7 @@ import webbrowser
 # -----------------------------
 # TMDb API config
 # -----------------------------
-API_KEY = "15bfa94e69b6164575593c71b163bba8"
+API_KEY = "YOUR KEY"
 BASE_URL = "https://api.themoviedb.org/3"
 IMG_URL = "https://image.tmdb.org/t/p/w200"
 
