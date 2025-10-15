@@ -70,7 +70,7 @@ source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 ```
-Then, Insert yout TMDb API key in [main.py]("https://raw.githubusercontent.com/mirconegri/MovieRecommender/main.py") run the app:
+Then, Insert yout TMDb API key in ![main.py]("https://raw.githubusercontent.com/mirconegri/MovieRecommender/main.py") run the app:
 ```
 python3 main.py
 ```
