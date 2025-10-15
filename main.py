@@ -4,11 +4,15 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import io
 import webbrowser
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # -----------------------------
 # TMDb API config
 # -----------------------------
-API_KEY = "YOUR KEY"
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.themoviedb.org/3"
 IMG_URL = "https://image.tmdb.org/t/p/w200"
 
