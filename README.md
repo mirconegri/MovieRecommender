@@ -77,7 +77,7 @@ python3 main.py
 
 ---
 
-## ❤️ Credits
+## 🧑‍💻 Credits
 
 This app uses data from The Movie Database (TMDb)
  but is not affiliated with TMDb.
