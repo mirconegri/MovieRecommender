@@ -79,14 +79,6 @@ python3 main.py
 
 ---
 
-## 🧑‍💻 Credits
-
-This app uses data from The Movie Database (TMDb)
- but is not affiliated with TMDb.
-Developed with passion by Mirco Negri.
-
----
-
 ## 📜 License
 
 MIT License © 2025 Mirco Negri
@@ -94,7 +86,7 @@ MIT License © 2025 Mirco Negri
 
 ---
 
-# 👤 Author
+## 👤 Author
 
 `Mirco Negri`
 GitHub: https://github.com/mirconegri
