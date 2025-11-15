@@ -1,7 +1,3 @@
-pandas
-Pillow
-requests
-
 # pandas is used for handling and structuring movie data (DataFrames, CSVs, etc.)
 pandas
 
