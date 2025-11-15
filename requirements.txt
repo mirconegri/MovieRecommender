@@ -1,3 +1,13 @@
 pandas
 Pillow
 requests
+
+# pandas is used for handling and structuring movie data (DataFrames, CSVs, etc.)
+pandas
+
+# Pillow is included only if the project actually manipulates images (resize, convert, save).
+# If you only display URLs without processing them, this dependency may be unnecessary.
+Pillow
+
+# requests is used to fetch data from external APIs (e.g., TMDb)
+requests
