@@ -81,7 +81,7 @@ python3 main.py
 
 ## 📜 License
 
-MIT License © 2025 Mirco Negri
+MIT License © 2025 `Mirco Negri`
 — see [LICENSE](LICENSE) file for details.
 
 ---
