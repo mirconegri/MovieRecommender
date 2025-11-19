@@ -68,8 +68,8 @@ cd MovieRecommender
 Create a virtual environment and install dependencies:
 ```
 python3 -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On `macOS/Linux`
+venv\Scripts\activate      # On `Windows`
 pip install -r requirements.txt
 ```
 Then, Insert yout TMDb API key in [main.py](https://github.com/mirconegri/MovieRecommender/blob/main/main.py) run the app:
