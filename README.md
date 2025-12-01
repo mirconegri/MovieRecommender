@@ -1,6 +1,6 @@
 # 🎬 Movie Recommender
 
-![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge)](https://www.python.org/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
 
 I needed an application that could **recommend new movies** for me to watch,  
 so I created this simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
