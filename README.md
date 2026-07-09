@@ -7,6 +7,7 @@ A desktop GUI application built with Python and Tkinter that recommends top-rate
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -14,6 +15,20 @@ A desktop GUI application built with Python and Tkinter that recommends top-rate
 - [Configuration / Environment](#configuration--environment)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Preview
+
+| Main Interface | Genre Selection & Results |
+|:---:|:---:|
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot1.png) |
+
+| Scrollable Movie Grid | Hover & Poster View |
+|:---:|:---:|
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot3.png) |
+
+**Dark Netflix-Inspired UI**
+
+<p align="center"><img src="https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot4.png"></p>
 
 ## Features
 
