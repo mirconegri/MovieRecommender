@@ -1,97 +1,98 @@
 # 🎬 Movie Recommender
 
-[![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge)](https://www.python.org/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
+[![Python](https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-I needed an application that could **recommend new movies** for me to watch,  
-so I created this simple and elegant movie recommendation app built with **Python** and **Tkinter**.  
-It suggests top-rated movies based on your selected genre and displays their posters — all in a clean, modern interface.
+A desktop GUI application built with Python and Tkinter that recommends top-rated movies by genre using **The Movie Database (TMDb) API**, displaying posters and ratings in a clean, dark, Netflix-inspired interface.
 
----
+## Table of Contents
 
-## 📸 Preview
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Configuration / Environment](#configuration--environment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Here are some screenshots of the app in action:
+## Features
 
-| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot1.png) |
-|:--:|:--:|
-| **Main Interface** | **Genre Selection & Results** |
+- Genre-based movie discovery via TMDb's `discover` endpoint, sorted by rating (highest `vote_average` first, filtered to titles with at least 200 votes)
+- Displays up to 20 movies per page in a scrollable 5-column poster grid, each showing title, release year, and rating
+- **"I've already seen these movies"** button to paginate and load the next batch of results for the same genre
+- Double-click any poster to open that movie's page directly on TMDb in your default browser
+- Dark, Netflix-inspired Tkinter UI (custom `ttk` styling)
 
-| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot3.png) |
-|:--:|:--:|
-| **Scrollable Movie Grid** | **Hover & Poster View** |
+## Tech Stack
 
-| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot4.png) |
-|:--:|
-| **Dark Netflix-Inspired UI** |
+- **Language:** Python 3
+- **GUI:** Tkinter / `ttk`
+- **Image handling:** Pillow (`PIL`)
+- **HTTP requests:** `requests`
+- **Data source:** [TMDb API](https://www.themoviedb.org/documentation/api)
 
----
+> **Note:** `requirements.txt` also lists `pandas`, which is not currently imported or used anywhere in `main.py`. It can likely be removed unless it's intended for a future feature.
 
-## 🚀 Features
+## Getting Started
 
-- 🎞️ Recommend **top 30 movies** per genre  
-- 🖼️ Display **movie posters** inside the app  
-- 💡 Clean, dark-themed interface inspired by Netflix  
-- ⚡ Lightweight and **easy to run** — connects directly to the TMDb API  
+### Prerequisites
 
----
+- Python 3
+- A free TMDb API key (see [Configuration](#configuration--environment) below)
 
-## 🧠 How It Works
+### Installation
 
-The app connects to the **TMDb API** to retrieve the most popular, top-rated movies by genre:
-
-1. Select a genre from the dropdown menu.  
-2. The app displays the **top 30 recommended movies** for that genre.  
-3. Each poster is clickable — double-click to open the movie’s page on TMDb.  
-4. Press **“I’ve already seen these movies”** to load more suggestions.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3**
-- **Tkinter** – GUI framework  
-- **Pillow (PIL)** – image handling  
-- **Requests** – API requests  
-- **TMDb API** – movie data source  
-
----
-
-## ⚙️ Installation
-
-Clone the repository:
-
-```
+```bash
 git clone https://github.com/mirconegri/MovieRecommender.git
 cd MovieRecommender
-```
-
-Create a virtual environment and install dependencies:
-```
 python3 -m venv venv
-source venv/bin/activate   # On `macOS/Linux`
-venv\Scripts\activate      # On `Windows`
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
-Then, Insert yout TMDb API key in [main.py](https://github.com/mirconegri/MovieRecommender/blob/main/main.py) run the app:
-```
+
+## Usage
+
+Once your API key is configured (see below), run:
+
+```bash
 python3 main.py
 ```
 
----
+1. Select a genre from the dropdown menu
+2. Click **🎥 Recommend Movies**
+3. Browse the scrollable poster grid — top-rated movies for that genre appear automatically
+4. Double-click a poster to open its TMDb page in your browser
+5. Click **"I've already seen these movies"** to load the next page of recommendations
 
-### 👤 Author & Connect
+## Configuration / Environment
 
-**Mirco Negri** — *Computer Science Student @ UniTrento*
+This project does **not** use a `.env` file. The TMDb API key must be set directly as a constant at the top of `main.py`:
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
+```python
+API_KEY = "YOUR PERSONAL API KEY"
+```
 
-### 📜 License
+To obtain a key:
+1. Create a free account at [themoviedb.org](https://www.themoviedb.org/)
+2. Generate an API key from your account settings
+3. Replace the placeholder value of `API_KEY` in `main.py` with your own key
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-<br>
+Without a valid key, genre loading will fail on startup and the app will show an error dialog.
+
+## Contributing
+
+Contributions are welcome! To propose a change:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes with a clear message
+4. Open a Pull Request
+
+Found a bug or have a feature idea? Open an [Issue](https://github.com/mirconegri/MovieRecommender/issues).
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
 © 2026 Mirco Negri
