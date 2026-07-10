@@ -10,9 +10,10 @@ A desktop GUI application built with Python and Tkinter that recommends top-rate
 - [Preview](#preview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Configuration / Environment](#configuration--environment)
+- [Configuration and Environment](#configuration-and-environment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -48,12 +49,28 @@ A desktop GUI application built with Python and Tkinter that recommends top-rate
 
 > **Note:** `requirements.txt` also lists `pandas`, which is not currently imported or used anywhere in `main.py`. It can likely be removed unless it's intended for a future feature.
 
+## Project Structure
+
+```
+MovieRecommender/
+├── main.py              # Tkinter app: genre selection, TMDb fetch, poster grid rendering
+├── requirements.txt
+├── images/
+│   ├── screenshot0.png
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+│   ├── screenshot3.png
+│   └── screenshot4.png
+├── README.md
+└── LICENSE
+```
+
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3
-- A free TMDb API key (see [Configuration](#configuration--environment) below)
+- A free TMDb API key (see [Configuration and Environment](#configuration-and-environment) below)
 
 ### Installation
 
@@ -80,7 +97,7 @@ python3 main.py
 4. Double-click a poster to open its TMDb page in your browser
 5. Click **"I've already seen these movies"** to load the next page of recommendations
 
-## Configuration / Environment
+## Configuration and Environment
 
 This project does **not** use a `.env` file. The TMDb API key must be set directly as a constant at the top of `main.py`:
 
@@ -106,8 +123,19 @@ Contributions are welcome! To propose a change:
 
 Found a bug or have a feature idea? Open an [Issue](https://github.com/mirconegri/MovieRecommender/issues).
 
+### 👤 Author & Connect
+
+**Mirco Negri** — *Computer Science Student @ UniTrento*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
+
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
+<br>
 © 2026 Mirco Negri
