@@ -47,7 +47,7 @@ A desktop GUI application built with Python and Tkinter that recommends top-rate
 - **HTTP requests:** `requests`
 - **Data source:** [TMDb API](https://www.themoviedb.org/documentation/api)
 
-> **Note:** `requirements.txt` also lists `pandas`, which is not currently imported or used anywhere in `main.py`. It can likely be removed unless it's intended for a future feature.
+
 
 ## Project Structure
 
